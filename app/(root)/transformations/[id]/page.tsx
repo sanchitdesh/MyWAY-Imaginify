@@ -2,9 +2,9 @@ import { auth } from "@clerk/nextjs";
 import Image from "next/image";
 import Link from "next/link";
 
-import { DeleteConfirmation } from "@/components/shared/DeleteConfirmation";
-import Header from "@/components/shared/Header";
-import TransformedImage from "@/components/shared/TransformedImage";
+import { DeleteConfirmation } from "../../../../components/Shared/DeleteConfirmation";
+import Header from "../../../../components/Shared/Header";
+import TransformedImage from "../../../../components/Shared/TransformedImage";
 import { Button } from "@/components/ui/button";
 import { getImageById } from "@/lib/actions/image.actions";
 import { getImageSize } from "@/lib/utils";
