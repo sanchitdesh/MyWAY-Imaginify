@@ -1,7 +1,3 @@
-//It is a server action files
-//It is asynchronous & they are executed on a server
-//It is alternative of API Routes
-
 "use server";
 
 import { revalidatePath } from "next/cache";
